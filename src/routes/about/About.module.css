@@ -1,0 +1,42 @@
+.about {
+  width: 100%; /* Take full width of the parent container */
+  height: 100%;
+  max-width: 1200px; /* Ensure it doesn't exceed a maximum width */
+  height: fit-content;
+  display: flex;
+  flex-direction: column; /* Use column direction as needed */
+  align-items: center; /* Center children horizontally within the container */
+  padding: 3rem;
+  margin: 0 auto 30rem auto; /* Similar margin to .home */
+  gap: 3rem;
+}
+
+.about h1 {
+  font-size: 2rem;
+  border-bottom: 2px dashed;
+}
+
+.about p {
+  font-size: 1.25rem;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.about h1,
+.about p {
+  margin: 0;
+}
+
+.about a {
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.blue {
+  color: #003f73;
+}
+
+.red {
+  color: #b50101;
+}

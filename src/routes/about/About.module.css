@@ -13,6 +13,8 @@
 
 .about h1 {
   font-size: 2rem;
+  text-decoration: 2px underline;
+  text-underline-offset: 1rem;
 }
 
 .about p {

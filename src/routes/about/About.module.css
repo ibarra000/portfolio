@@ -7,19 +7,17 @@
   flex-direction: column; /* Use column direction as needed */
   align-items: center; /* Center children horizontally within the container */
   padding: 3rem;
-  margin: 0 auto 30rem auto; /* Similar margin to .home */
+  margin: 0 auto 15rem auto; /* Similar margin to .home */
   gap: 3rem;
 }
 
 .about h1 {
   font-size: 2rem;
-  border-bottom: 2px dashed;
 }
 
 .about p {
   font-size: 1.25rem;
-  font-family: Helvetica, sans-serif;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .about h1,
@@ -34,7 +32,7 @@
 }
 
 .blue {
-  color: #003f73;
+  color: #1266ab;
 }
 
 .red {

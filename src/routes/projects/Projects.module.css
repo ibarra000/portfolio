@@ -7,7 +7,8 @@
   flex-direction: column; /* Use column direction as needed */
   align-items: center; /* Center children horizontally within the container */
   padding: 3rem;
-  margin: 0 auto 0 auto; /* Similar margin to .home */
+  margin: 0 auto;
+  padding-bottom: 20rem;
   gap: 3rem;
 }
 
@@ -29,7 +30,8 @@
     row
   ); /* Use column direction as needed */
   align-items: center; /* Center children horizontally within the container */
-  justify-content: space-between;
+  justify-content: center;
+  gap: 5rem;
 }
 
 @media (max-width: 1000px) {

@@ -13,7 +13,7 @@ export default function Header() {
 
   return (
     <header className={styles.header}>
-      <span className={styles.logo}></span>
+      {/* <span className={styles.logo}></span> */}
       <nav className={styles.links}>
         <ul>
           <li>
@@ -21,7 +21,7 @@ export default function Header() {
               to="home"
               spy={true}
               smooth={true}
-              duration={1000}
+              duration={700}
               offset={-70}
             >
               Home
@@ -32,7 +32,7 @@ export default function Header() {
               to="about"
               spy={true}
               smooth={true}
-              duration={1000}
+              duration={700}
               offset={-70}
             >
               About
@@ -43,7 +43,7 @@ export default function Header() {
               to="experience"
               spy={true}
               smooth={true}
-              duration={1000}
+              duration={700}
               offset={-70}
             >
               Experience
@@ -54,7 +54,7 @@ export default function Header() {
               to="projects"
               spy={true}
               smooth={true}
-              duration={1000}
+              duration={700}
               offset={-70}
             >
               Projects
@@ -92,7 +92,7 @@ export default function Header() {
           to="home"
           spy={true}
           smooth={true}
-          duration={1000}
+          duration={700}
           offset={-70}
           onClick={toggleMenu}
         >
@@ -102,7 +102,7 @@ export default function Header() {
           to="about"
           spy={true}
           smooth={true}
-          duration={1000}
+          duration={700}
           offset={-70}
           onClick={toggleMenu}
         >
@@ -112,7 +112,7 @@ export default function Header() {
           to="experience"
           spy={true}
           smooth={true}
-          duration={1000}
+          duration={700}
           offset={-70}
           onClick={toggleMenu}
         >
@@ -122,30 +122,12 @@ export default function Header() {
           to="projects"
           spy={true}
           smooth={true}
-          duration={1000}
+          duration={700}
           offset={-70}
           onClick={toggleMenu}
         >
           Projects
         </ScrollLink>
-        <a
-          href="https://www.linkedin.com/in/edward-ibarra-6974a51a1"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="LinkedIn"
-          onClick={toggleMenu}
-        >
-          LinkedIn
-        </a>
-        <a
-          href="https://github.com/ibarra000"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="GitHub"
-          onClick={toggleMenu}
-        >
-          GitHub
-        </a>
       </div>
     </header>
   );

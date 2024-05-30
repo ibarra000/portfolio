@@ -48,10 +48,12 @@
 
 @media (max-width: 1000px) {
   .home p, .home span {
-    padding: 0;
+    padding-top: 0;
+    align-self: center;
   }
   .home {
     --flex-direction: column-reverse;
+    padding-top: 7rem;
   }
   .intro {
     --text-align: center; /* Center align text for smaller screens */

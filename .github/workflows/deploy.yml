@@ -35,7 +35,7 @@ jobs:
         with:
           node-version: '20'
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: yarn add ci
       - name: Build
         run: yarn build
       - name: Setup Pages
